@@ -16,7 +16,7 @@ When you type a URL in your browser and hit enter, your browser sends an HTTP re
 
 The web page that you see in your browser is usually written in HTML (HyperText Markup Language), which is the standard markup language for creating web pages. HTML consists of elements that define the structure and content of the web page. HTML elements are enclosed by tags, which indicate how they should be displayed or behave.
 
-For example, <p>My cat is very grumpy</p> is an HTML element that represents a paragraph of text. The opening tag (<p>) indicates where the paragraph begins, and the closing tag (</p>) indicates where it ends.
+For example, `<p>My cat is very grumpy</p>` is an HTML element that represents a paragraph of text. The opening tag (`<p>`) indicates where the paragraph begins, and the closing tag (`</p>`) indicates where it ends.
 
 HTML alone can create static websites, where the content does not change based on user input or interaction. However, if you want to make your website dynamic (manage files and databases, add contact forms, control user-access, etc.), you need to use a programming language that can run on the server-side.
 
