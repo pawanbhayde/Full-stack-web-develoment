@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: 16px/1.5 "Roboto", sans-serif;
+}
+
+/* ======Navbar====== */
+
+nav {
+  background: #151415;
+  color: #fff;
+  padding: 15px 60px;
+  border-bottom: 1px solid #424242;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar ul li a:hover {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #fff;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.location img {
+  fill: #fff;
+}
+
+.settingicons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.setting,
+.bell,
+.fil-icon {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border: 0.5px solid #fff;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.filter {
+  background-color: #151415;
+  padding: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.fil-item {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #fff;
+  border-right: #424242 1px solid;
+}
+.fil-item-last {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* ======Jobs======== */
+
+.jobs {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  background-color: rebeccapurple;
+}
+.recom-jobs {
+  height: 100%;
+  width: 80%;
+}
